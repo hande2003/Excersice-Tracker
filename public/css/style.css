@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family:sans-serif;
+    color: #0F1E25;
+    border: 5px;
+  }
+  
+  .container-fluid{
+    height: 100vh;
+    background-image: url(../images/783289.jpg);
+    background-position: top;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+  }
+
+  
+  #main{
+    height: 70vh;
+    background-color: rgba(6, 41, 47, 0.5);
+  }
+
+
+  header{
+    color:#0F1E25;
+    width: 100%;
+  }

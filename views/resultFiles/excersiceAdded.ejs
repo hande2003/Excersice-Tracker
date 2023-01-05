@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Added New Excersice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="/public/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid d-flex justify-content-center align-items-center">
+        <div class="card w-25 shadow shadow-sm">
+            <div class="card-header" style="color:#198754;">
+                Congratulations!
+            </div>
+            <div class="card-body">
+                <p class="card-text">You have just added an excersice. Below is the info regarding the same.</p>
+                <table class="table table-borderless table-success table-sm">
+                    <tbody>
+                        <tr>
+                            <th scope="row">Username:</th>
+                            <td><%=username%></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Description:</th>
+                            <td><%=description%></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Duration:</th>
+                            <td><%=duration%></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Date:</th>
+                            <td><%=date%></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">_id:</th>
+                            <td><%=_id%></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="/" class="btn btn-success w-100">Understood</a>
+            </div>
+        </div>
+    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
